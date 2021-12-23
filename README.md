@@ -21,6 +21,6 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.AlJamilSuvo:TextEmojiConverterTextFieldLib:Tag'
+	        implementation 'com.github.AlJamilSuvo:TextEmojiConverterTextFieldLib:2.0.4'
 	}
 ```
