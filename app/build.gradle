@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 204
+        versionName "2.0.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -70,9 +70,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.AlJamilSuvo'  //https://github.com/AlJamilSuvo/TextEmojiTextField
-                artifactId = 'text-emoji-textfield-compose'
-                version = '1.0'
+                groupId = 'com.github.AlJamilSuvo'
+                artifactId = 'TextEmojiConverterTextFieldLib'
+                version = '2.0.4'
             }
         }
     }
